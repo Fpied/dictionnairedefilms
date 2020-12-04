@@ -1,12 +1,9 @@
 films = {
-        0: {"Titre du film": "Le Seigneur des Anneaux",
-             "prix": 12},
-        1: {"Titre du film": "Harry Potter",
-            "prix": 9},
-        2: {"Titre du film": "Blade Runner",
-            "prix": 7.5},
+        "Le Seigneur des Anneaux": 12,
+        "Harry Potter": 9,
+        "Blade Runner": 7.5
         }
 
 
-prix = films[0]["prix"] + films[1]["prix"] + films[2]["prix"]
+prix = films["Le Seigneur des Anneaux"] + films["Harry Potter"] + films["Blade Runner"]
 print(prix)
